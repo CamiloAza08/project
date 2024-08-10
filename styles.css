@@ -60,7 +60,53 @@ nav ul li a {
         display: block;
         margin: 10px 0;
     }
+table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            thead tr {
+                display: none; 
+            }
+
+            tr {
+                margin-bottom: 10px;
+            }
+
+            td {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: right;
+                padding: 10px 0;
+                border: none;
+                border-bottom: 1px solid #ddd;
+                position: relative;
+                padding-left: 50%;
+            }
+
+            td:before {
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+                text-align: left;
+            }
+
     .float-right-img1 {
+        display: none;
+    }
+    .float-right-img {
+        display: none;
+    }
+    .float-right-img4 {
+        display: none;
+    }
+    .float-right-img3 {
+        display: none;
+    }
+    .float-right-img5 {
+        display: none;
+    }
+    .float-right-img6 {
         display: none;
     }
     #donor_information {
@@ -73,6 +119,10 @@ nav ul li a {
     #how-you-can-help {
         padding-left: 10%;
     }
+    #events {
+        display: auto;
+    }
+   
 }
 
 /* Main Sections */
